@@ -1,6 +1,7 @@
-import OldSignupForm from './SignupForm/SignupForm';
+import SignupForm from './SignupForm/SignupForm';
 import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
+import Clock from './Clock/Clock';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -26,7 +27,7 @@ export const App = () => {
 
       {/*<Switch>*/}
       {/*  <Route path="/signup">*/}
-      <OldSignupForm />
+      <SignupForm />
       {/*</Route>*/}
 
       {/*  <Route path="/colorpicker">*/}
@@ -38,7 +39,7 @@ export const App = () => {
       {/*  </Route>*/}
 
       {/*  <Route path="/clock">*/}
-      {/*    <Clock />*/}
+      <Clock />
       {/*  </Route>*/}
 
       {/*  <Route path="/pokemon">*/}
