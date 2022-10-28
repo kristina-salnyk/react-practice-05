@@ -2,6 +2,7 @@ import SignupForm from './SignupForm/SignupForm';
 import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
 import Clock from './Clock/Clock';
+import AppBar from './AppBar/AppBar';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -23,7 +24,7 @@ const containerStyles = {
 export const App = () => {
   return (
     <div style={containerStyles}>
-      {/*<AppBar />*/}
+      <AppBar />
 
       {/*<Switch>*/}
       {/*  <Route path="/signup">*/}
