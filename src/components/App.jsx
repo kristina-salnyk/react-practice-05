@@ -3,6 +3,7 @@ import ColorPicker from './ColorPicker/ColorPicker';
 import Counter from './Counter/Counter';
 import Clock from './Clock/Clock';
 import AppBar from './AppBar/AppBar';
+import PokemonView from '../views/PokemonView';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -26,27 +27,11 @@ export const App = () => {
     <div style={containerStyles}>
       <AppBar />
 
-      {/*<Switch>*/}
-      {/*  <Route path="/signup">*/}
       <SignupForm />
-      {/*</Route>*/}
-
-      {/*  <Route path="/colorpicker">*/}
       <ColorPicker options={colorPickerOptions} />
-      {/*  </Route>*/}
-
-      {/*  <Route path="/counter">*/}
       <Counter />
-      {/*  </Route>*/}
-
-      {/*  <Route path="/clock">*/}
       <Clock />
-      {/*  </Route>*/}
-
-      {/*  <Route path="/pokemon">*/}
-      {/*    <PokemonView />*/}
-      {/*  </Route>*/}
-      {/*</Switch>*/}
+      <PokemonView />
     </div>
   );
 };
