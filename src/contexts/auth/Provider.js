@@ -23,6 +23,6 @@ export default function Provider({ children }) {
   return (
     <authContext.Provider value={providerValue}>
       {children}
-    </authContext.Provider>
+     </authContext.Provider>
   );
 }

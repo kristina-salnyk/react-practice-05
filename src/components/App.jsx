@@ -26,7 +26,6 @@ export const App = () => {
   return (
     <div style={containerStyles}>
       <AppBar />
-
       <SignupForm />
       <ColorPicker options={colorPickerOptions} />
       <Counter />

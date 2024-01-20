@@ -1,8 +1,8 @@
 {
-  "name": "react-practice-06",
+  "name": "react-practice-05",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kristina-salnyk.github.io/react-practice-06/",
+  "homepage": "https://kristina-salnyk.github.io/react-practice-05/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
